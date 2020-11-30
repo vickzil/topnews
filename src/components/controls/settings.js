@@ -4,7 +4,7 @@ const API_KEY = '784b2a36b3514da9a742a40b129f28ca';
 
 // GENERATE URL
 export const generateUrl =(path, query) => {
-  const urlPath = "http://newsapi.org/v2" + path + query + "&apiKey=" + API_KEY;
+  const urlPath = "https://newsapi.org/v2" + path + query + "&apiKey=" + API_KEY;
   return urlPath;
 }
 
